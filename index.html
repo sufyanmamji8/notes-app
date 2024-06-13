@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loginpage">
+       <div id="container">
+        <h1>FORM TESTING</h1>
+        <input type="text" placeholder="enter your email" id="email">
+        <input type="password" placeholder="enter your password" id="password">
+        <button onclick="loginuser()">login</button>
+       </div>
+    </div>
+
+    <div id="homepage" style="display: none;">
+        <h1>Welcome, <span id="useremail"></span></h1>
+        <input type="text" id="todoinput" placeholder="Add a Note">
+        <button onclick="addNote()">Add Note</button>
+        <ul id="list"></ul>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
